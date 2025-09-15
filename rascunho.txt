@@ -1,0 +1,10 @@
+python manage.py runserver 8001
+python manage.py runserver 
+python manage.py runserver 8001
+python3 -m venv venv
+source venv/bin/activate
+deactivate
+
+
+python manage.py makemigrations core
+python manage.py migrate
